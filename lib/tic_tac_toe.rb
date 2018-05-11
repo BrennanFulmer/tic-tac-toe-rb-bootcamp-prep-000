@@ -65,6 +65,7 @@ def won?(board)
       break
     elsif board[set[0]] == "O" && board[set[1]] == "O" && board[set[2]] == "O"
       result = set
+      break
     end
   end
   result
