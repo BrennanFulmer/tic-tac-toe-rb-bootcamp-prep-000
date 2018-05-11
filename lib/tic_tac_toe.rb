@@ -99,7 +99,7 @@ def play(board)
     turn(board)
   end
   letter = winner(board)
-  if finish != nil
+  if letter != nil
     puts "Congratulations #{finish}!"
   else
     puts "Cat's Game!"
