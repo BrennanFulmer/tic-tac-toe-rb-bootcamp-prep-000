@@ -75,7 +75,7 @@ def full?(board)
   filled = board.all? do |spot|
     spot != " " && spot != ""
   end
-  #filled
+  # filled
 end
 
 def draw?(board)
