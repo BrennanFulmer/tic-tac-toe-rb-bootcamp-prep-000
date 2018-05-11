@@ -98,7 +98,7 @@ def play(board)
   until over?(board)
     turn(board)
   end
-  finish = winner(board)
+  letter = winner(board)
   if finish != nil
     puts "Congratulations #{finish}!"
   else
